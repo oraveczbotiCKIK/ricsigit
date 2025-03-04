@@ -1,0 +1,63 @@
+a:git init
+b:git init
+a:git remote add origin url
+b:git remote add origin url
+a:letrehoz egy txt-t azutan egy csinal egy valtozast
+a:git add .
+a:git commit -m "elso"
+a:git push origin master
+b:git fetch
+b:git pull origin master
+b:csinal egy valtozast a txt be
+b:git add .
+b:git commit -m "masodik"
+b:git push origin master
+a:git fetch
+a:git pull origin master
+b:git branch f
+b:git checkout f
+b:csinal egy valtozast az f agon
+b:git add .
+b:git commit -m "harmas"
+b:git push origin f
+a:git fetch
+a:git checkout f
+a:git pull origin f
+a:git checkout master
+a:csinal egy valtozast
+a:git add .
+a:git commit -m "negyes"
+a:git push origin master
+B:git fetch
+b:git checkout master
+b:git pull origin master
+a:git checkout f
+a:csinal egy valtozast
+a:git add .
+a:git commit -m "otodik"
+a:git push origin f
+b:git fetch
+b:git checkout f
+B:git pull origin f
+B:git checkout master
+b:csinal egy valtozast
+B:git add .
+B:git commit -m "hatodik"
+B:git push origin master
+a:git fetch
+a:git checkout master
+a:git pull origin master
+a:git merge f
+a:elfogadja mind a kettot
+a:git add .
+a:git commit -m "merge"
+a:git push origin master
+b:git checkout master
+b:git fetch
+b:git pull origin master
+b:beteszi a mappába
+b:git add .
+b:git commit -m "txt"
+b:git push origin master
+a:git fetch
+a:git pull origin master

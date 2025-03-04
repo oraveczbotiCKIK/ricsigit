@@ -2,3 +2,5 @@ eggyes
 kettes
 negyes
 hatodik
+hármas
+otodik
